@@ -1773,57 +1773,78 @@ body {
    RESPONSIVE
    ═══════════════════════════════════════════════════════════ */
 
-@media (max-width: 768px) {
-  .ps-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: 3.5rem;
   }
-
-  .hero-stats {
-    flex-direction: column;
+  .ps-grid {
     gap: var(--space-xl);
   }
+}
 
-  .options-grid {
-    grid-template-columns: 1fr;
+@media (max-width: 768px) {
+  /* Navigation */
+  .navbar-inner {
+    flex-direction: column;
+    gap: var(--space-md);
   }
-
-  .results-summary {
-    grid-template-columns: 1fr;
+  .navbar-actions {
+    flex-wrap: wrap;
+    justify-content: center;
   }
-
-  .rec-categories {
-    grid-template-columns: 1fr;
-  }
-
-  .compare-selectors {
-    grid-template-columns: 1fr;
-  }
-
-  .compare-vs {
-    margin: 0 auto;
-  }
-
-  .rec-pros-cons {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-title {
-    font-size: 2.2rem;
-  }
-
   .navbar-actions .btn span {
     display: none;
   }
 
-  .features-grid {
-    grid-template-columns: 1fr;
+  /* Typography */
+  .hero-title {
+    font-size: 2.2rem;
   }
 
+  /* Forms & Questionnaires */
+  .questionnaire-container {
+    padding: var(--space-md);
+  }
+
+  /* Grid Reductions */
+  .ps-grid,
+  .options-grid,
+  .results-summary,
+  .rec-categories,
+  .compare-selectors,
+  .rec-pros-cons,
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  /* Compare specific */
+  .compare-selectors {
+    gap: var(--space-md);
+  }
+  .compare-vs {
+    margin: 0 auto;
+  }
+  .compare-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Architecture specific */
+  .arch-container {
+    height: 400px;
+  }
+
+  /* Utilities */
+  .hero-stats {
+    flex-direction: column;
+    gap: var(--space-xl);
+  }
   .footer-inner {
     flex-direction: column;
     gap: var(--space-md);
   }
-
   .tabs {
     justify-content: flex-start;
   }
@@ -1833,16 +1854,51 @@ body {
   .container {
     padding: 0 var(--space-md);
   }
-
   .hero-title {
     font-size: 1.8rem;
   }
-
   .section-title {
     font-size: 1.5rem;
   }
-
   .question-title {
     font-size: 1.3rem;
+  }
+  
+  .hero-stats {
+    gap: var(--space-md);
+  }
+  .summary-card-value {
+    font-size: 1.8rem;
+  }
+  
+  /* Additional fine adjustments for small mobile */
+  .rec-tech-meta {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .arch-container {
+    height: 300px;
+  }
+  .arch-node {
+    min-width: auto;
+    padding: 6px;
+    gap: 4px;
+    transform: scale(0.8) translate(-60%, 0);
+  }
+  .arch-node:hover {
+    transform: scale(0.9) translate(-60%, 0);
+  }
+  .arch-node-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Buttons should expand */
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-actions .btn {
+    width: 100%;
   }
 }
