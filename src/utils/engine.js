@@ -13,6 +13,8 @@ const projectTypeTags = {
   'blog': ['content', 'blog', 'seo'],
   'realtime': ['realtime', 'web-app'],
   'mvp': ['mvp', 'rapid', 'startup'],
+  'automation': ['automation', 'n8n', 'workflows'],
+  'ml': ['ml', 'data', 'ai', 'data-science'],
 };
 
 const budgetTags = {
@@ -43,7 +45,8 @@ const featureTags = {
   'file-upload': ['web-app'],
   'search': ['analytics', 'data'],
   'analytics': ['analytics', 'data'],
-  'ml': ['ml', 'data'],
+  'ml': ['ml', 'data', 'ai'],
+  'automation': ['automation', 'workflows'],
 };
 
 const priorityWeights = {

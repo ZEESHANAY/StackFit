@@ -99,6 +99,17 @@ export const techStack = {
       tags: ['content', 'blog', 'seo', 'performance', 'solo', 'small-team'],
       color: '#FF5D01',
     },
+    {
+      id: 'streamlit',
+      name: 'Streamlit',
+      description: 'The fastest way to build data apps in Python. Perfect for ML and Data Science dashboards.',
+      pros: ['Pure Python', 'Zero frontend experience needed', 'Rapid prototyping', 'Built for data', 'Great for internal tools'],
+      cons: ['Limited custom styling', 'Not a general-purpose web framework', 'State management can be tricky'],
+      costRange: [0, 0],
+      scalabilityScore: 6,
+      tags: ['data', 'ml', 'ai', 'data-science', 'internal-tool', 'rapid', 'solo'],
+      color: '#FF4B4B',
+    },
   ],
 
   // ═══════════════════════════════════════════════
@@ -113,7 +124,7 @@ export const techStack = {
       cons: ['Single-threaded', 'Callback complexity', 'Not great for CPU-heavy tasks'],
       costRange: [0, 50],
       scalabilityScore: 8,
-      tags: ['api', 'realtime', 'startup', 'web-app', 'saas', 'solo', 'small-team', 'rapid'],
+      tags: ['api', 'realtime', 'startup', 'web-app', 'saas', 'solo', 'small-team', 'rapid', 'automation', 'workflows'],
       color: '#339933',
     },
     {
@@ -124,7 +135,7 @@ export const techStack = {
       cons: ['Monolithic architecture', 'Slower than Node/Go', 'Django ORM limitations'],
       costRange: [0, 50],
       scalabilityScore: 7,
-      tags: ['api', 'startup', 'data', 'ml', 'web-app', 'ecommerce', 'small-team'],
+      tags: ['api', 'startup', 'data', 'ml', 'ai', 'data-science', 'web-app', 'ecommerce', 'small-team'],
       color: '#092E20',
     },
     {
@@ -135,7 +146,7 @@ export const techStack = {
       cons: ['Newer ecosystem', 'Less batteries than Django', 'Smaller community'],
       costRange: [0, 30],
       scalabilityScore: 8,
-      tags: ['api', 'ml', 'performance', 'startup', 'saas', 'solo', 'small-team'],
+      tags: ['api', 'ml', 'ai', 'data-science', 'performance', 'startup', 'saas', 'solo', 'small-team'],
       color: '#009688',
     },
     {
@@ -458,6 +469,17 @@ export const techStack = {
       scalabilityScore: 8,
       tags: ['enterprise', 'large-team', 'saas', 'startup'],
       color: '#343434',
+    },
+    {
+      id: 'n8n',
+      name: 'n8n',
+      description: 'Fair-code workflow automation tool. Combine APIs with logic without writing code.',
+      pros: ['Self-hosted option', 'Node-based visual workflow', 'Fair-code model', 'Deep API integrations', 'Great for process automation'],
+      cons: ['Can get complex for large workflows', 'Requires hosting if not using Cloud', 'Different paradigm than raw code'],
+      costRange: [0, 50],
+      scalabilityScore: 8,
+      tags: ['automation', 'workflows', 'startup', 'solo', 'small-team', 'rapid', 'saas', 'api'],
+      color: '#FF6D5A',
     },
   ],
 };
