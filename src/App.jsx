@@ -72,10 +72,10 @@ export default function App() {
       <nav className="navbar">
         <div className="container navbar-inner">
           <a className="navbar-logo" onClick={() => navigate(PAGE.HOME)}>
+            <span>StackFit</span>
             <div className="navbar-logo-icon">
               <Layers size={20} />
             </div>
-            <span>StackFit</span>
           </a>
 
           <div className="navbar-actions">
