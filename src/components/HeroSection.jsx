@@ -122,23 +122,23 @@ export default function HeroSection({ onStart }) {
               <ul className="ps-list">
                 <li>
                   <AlertTriangle size={16} className="ps-list-icon" style={{ color: '#ef4444' }} />
-                  New developers and startups struggle with <strong>choosing the right stack</strong>
+                  <span>New developers and startups struggle with <strong>choosing the right stack</strong></span>
                 </li>
                 <li>
                   <AlertTriangle size={16} className="ps-list-icon" style={{ color: '#ef4444' }} />
-                  They waste time <strong>avoiding overengineering</strong> or underengineering
+                  <span>They waste time <strong>avoiding overengineering</strong> or underengineering</span>
                 </li>
                 <li>
                   <AlertTriangle size={16} className="ps-list-icon" style={{ color: '#ef4444' }} />
-                  <strong>Scaling decisions</strong> are made too late or too early
+                  <span><strong>Scaling decisions</strong> are made too late or too early</span>
                 </li>
                 <li>
                   <AlertTriangle size={16} className="ps-list-icon" style={{ color: '#ef4444' }} />
-                  Picking the right <strong>database, auth, hosting, and state management</strong> feels overwhelming
+                  <span>Picking the right <strong>database, auth, hosting, and state management</strong> feels overwhelming</span>
                 </li>
                 <li>
                   <AlertTriangle size={16} className="ps-list-icon" style={{ color: '#ef4444' }} />
-                  They <strong>waste weeks researching</strong> instead of building
+                  <span>They <strong>waste weeks researching</strong> instead of building</span>
                 </li>
               </ul>
             </div>
@@ -152,23 +152,23 @@ export default function HeroSection({ onStart }) {
               <ul className="ps-list">
                 <li>
                   <CheckCircle size={16} className="ps-list-icon" style={{ color: '#06b6d4' }} />
-                  A smart web app that asks <strong>structured questions</strong> (budget, team size, traffic, features)
+                  <span>A smart web app that asks <strong>structured questions</strong> (budget, team size, traffic, features)</span>
                 </li>
                 <li>
                   <CheckCircle size={16} className="ps-list-icon" style={{ color: '#06b6d4' }} />
-                  Recommends <strong>Frontend stack, Backend stack, Database, Auth strategy, Hosting, CI/CD</strong>
+                  <span>Recommends <strong>Frontend stack, Backend stack, Database, Auth strategy, Hosting, CI/CD</strong></span>
                 </li>
                 <li>
                   <CheckCircle size={16} className="ps-list-icon" style={{ color: '#06b6d4' }} />
-                  Shows <strong>pros and cons</strong> for every recommendation
+                  <span>Shows <strong>pros and cons</strong> for every recommendation</span>
                 </li>
                 <li>
                   <CheckCircle size={16} className="ps-list-icon" style={{ color: '#06b6d4' }} />
-                  Provides <strong>cost estimation</strong> and <strong>scalability scores</strong>
+                  <span>Provides <strong>cost estimation</strong> and <strong>scalability scores</strong></span>
                 </li>
                 <li>
                   <CheckCircle size={16} className="ps-list-icon" style={{ color: '#06b6d4' }} />
-                  Powered by <strong>AI-based reasoning</strong> for every decision
+                  <span>Powered by <strong>AI-based reasoning</strong> for every decision</span>
                 </li>
               </ul>
             </div>
